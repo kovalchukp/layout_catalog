@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .logo {
   display: block;
 }
@@ -7,12 +13,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 2px 4px 0 #0000000d;
 }
 
 .nav__list {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: flex-end;
   list-style: none;
 }
 
@@ -28,6 +36,11 @@
   text-decoration: none;
   color: $main-text-color;
   cursor: pointer;
+  transition: color 300ms;
+
+  &:hover {
+    color: $link-color;
+  }
 }
 
 .nav__item {
@@ -52,8 +65,4 @@
   height: 4px;
   background-color: $link-color;
   border-radius: 8px;
-}
-
-.nav__link:hover {
-  color: $link-color;
 }

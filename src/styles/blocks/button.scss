@@ -1,6 +1,5 @@
-.submit {
+.card__button {
   font-family: Roboto, sans-serif;
-  position: absolute;
   color: $alt-button-color;
   background-color: $main-button-color;
   height: 40px;
@@ -14,6 +13,9 @@
   text-transform: uppercase;
   padding: 0;
   margin: 16px;
+  transition:
+    color 300ms,
+    background-color 300ms;
 
   &:hover {
     cursor: pointer;
