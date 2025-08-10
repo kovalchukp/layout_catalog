@@ -1,3 +1,21 @@
+@import './utils/variabels';
+@import './utils/mixins';
+@import 'blocks/nav';
+@import 'blocks/page';
+@import 'blocks/card';
+@import 'blocks/stars';
+@import 'blocks/button';
+@import 'blocks/cataloge';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
