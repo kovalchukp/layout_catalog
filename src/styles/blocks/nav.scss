@@ -39,7 +39,7 @@
   transition: color 300ms;
 
   &:hover {
-    color: $link-color;
+    color: $accent-color;
   }
 }
 
@@ -53,7 +53,7 @@
 }
 
 .is-active {
-  color: $link-color;
+  color: $accent-color;
 }
 
 .is-active::after {
@@ -63,6 +63,6 @@
   bottom: 0;
   width: 100%;
   height: 4px;
-  background-color: $link-color;
+  background-color: $accent-color;
   border-radius: 8px;
 }

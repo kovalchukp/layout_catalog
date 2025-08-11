@@ -1,6 +1,5 @@
 @import './utils/variables';
 @import 'blocks/nav';
-@import 'blocks/page';
 @import 'blocks/card';
 @import 'blocks/stars';
 @import 'blocks/button';
@@ -9,10 +8,6 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
-}
-
-body {
   margin: 0;
 }
 
