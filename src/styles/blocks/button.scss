@@ -1,4 +1,5 @@
 .card__button {
+  margin-top: 16px;
   font-family: Roboto, sans-serif;
   color: $alt-button-color;
   background-color: $main-button-color;
@@ -11,8 +12,6 @@
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  padding: 0;
-  margin: 16px;
   transition:
     color 300ms,
     background-color 300ms;
